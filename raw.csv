@@ -1,0 +1,12 @@
+
+---
+
+### `.env.example`
+```env
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=ml_platform
+POSTGRES_USER=ml_user
+POSTGRES_PASSWORD=ml_pass
+
+MODEL_PATH=/artifacts/model.joblib
