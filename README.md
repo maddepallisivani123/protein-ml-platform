@@ -12,6 +12,7 @@ A minimal ML platform that demonstrates:
 1) Copy env:
 ```bash
 cp .env.example .env
+## Start Postgres + API:
 docker compose up --build -d postgres api
 docker compose run --rm etl
 docker compose run --rm training
